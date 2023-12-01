@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #152238;
+}
+
+h1,
+h2 {
+  color: antiquewhite;
+}
+
+p{
+  background-color: antiquewhite;
+  width:100%;
+  height: 50px;
+  opacity: 60%;
+  border-radius: 4px;
+  text-align: center; 
+  padding-top: 15px; 
+}
+
+.filterby{
+    margin: 10px;
+    background-color: rgba(116, 18, 28);
+    box-shadow: 2px 2px rgba(247, 245, 245, 0.819);
+    border-radius: 4px;
+    padding-left: 5px;
+}
+ 
+
+#filters {
+   margin: 10px;
+   display: flex;
+}
+
+#kpi{
+  width:300px;
+}
+
+#gran, #NE, #kpi{
+    height: 65px;
+    padding: 20px;
+    text-align: center;
+
+  
+}
+ #DateTo,#DateFrom{
+    width: 400px; 
+    margin-left: 10px;
+    margin-top: 10px; 
+    border-radius: 4px;
+    padding: 5px;
+    background-color: antiquewhite;
+ 
+}
+
+
+#submit{
+ display: grid; 
+margin-top: 10px;
+margin-bottom: 10px;
+height: 65px;
+
+}
+
+.clearfix:after {
+    content:"";
+    display:block;
+    clear:both;
+}
+#container, #filters{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#col{
+  
+    flex-direction: column;
+  
+}
+
+
+ #LineChart {
+    background-color: antiquewhite;
+    border-radius: 4px;
+    width: 100%;
+} 
+
+
+span{
+    color:antiquewhite
+    
+}
+
+.card {
+  background-color: rgb(116, 18, 28);
+  border-radius: 4px;
+  box-shadow: 2px 2px 2px 2px rgba(247, 245, 245, 0.819);
+  padding: 1rem;
+  width: 100%;
+  height: 20px;
+}
+
+.actions {
+  text-align: right;
+}
+
+.radio {
+    color:antiquewhite; /* Change the color of the radio button indicator */
+  }
+  
+  .radio label {
+    color: #ffffff; /* Change the color of the radio button label */
+  }
+  
+ 
+
